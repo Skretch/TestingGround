@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+ul{
+    list-style-type: none;
+}
+.row li{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    flex-grow: 1;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+}
+#container ul ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: flex-start;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-color: green;
+}
+#container ul ul input{
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+}
+#row-1{
+    background-color: grey;
+}
+#row-2{
+    background-color: yellow;
+}
+#container ul{
+    display: flex;
+    flex-direction: column-reverse;;
+    flex-wrap: wrap;
+}
